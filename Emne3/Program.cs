@@ -1,5 +1,5 @@
-﻿namespace Emne3;
-
+﻿using System;
+namespace Emne3;
 class Program
 {
     public static void Main(string[] args)

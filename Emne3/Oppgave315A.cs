@@ -2,7 +2,7 @@
 
 public class Oppgave315A
 {
-    public static void Run()
+    public void Run()
     {
         Console.WriteLine("Guess the number");
       
@@ -18,7 +18,7 @@ public class Oppgave315A
         
     }
 
-    private static bool IsCorrect(int number, bool isCorrect)
+    private  bool IsCorrect(int number, bool isCorrect)
     {
         string? input = Console.ReadLine();
         int guessedNumber = int.Parse(input);

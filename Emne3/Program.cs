@@ -1,9 +1,12 @@
-﻿using System;
-namespace Emne3;
+﻿namespace Emne3;
 class Program
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Hello World!");
+
+        var oppgave = new Oppgave315A();
+        
+        oppgave.Run();
+
     }
 }                                                                                                                        
